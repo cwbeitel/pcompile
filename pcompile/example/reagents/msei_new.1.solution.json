@@ -1,0 +1,78 @@
+{
+    "volume": "50:microliter", 
+    "classification": {
+        "supplier": "neb", 
+        "model": "r0525s"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "msei restriction enzyme", 
+        "components_string": "10 mm tris-hcl; 50 mm kcl; 1 mm dtt; 0.1 mm edta; 200 \u03bcg/ml bsa; 50% glycerol"
+    }, 
+    "container": {
+        "location": "ct177en34ccwxb:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "msei_new", 
+    "components": [
+        {
+            "concentration": "10:mM", 
+            "name": "tris-hcl", 
+            "classification": {
+                "LOCAL": "tris_hcl"
+            }
+        }, 
+        {
+            "concentration": "50:mM", 
+            "name": "kcl", 
+            "classification": {
+                "CHEBI": "potassium_chloride"
+            }
+        }, 
+        {
+            "concentration": "1:mM", 
+            "name": "dtt", 
+            "classification": {
+                "CHEBI": "L-1,4-dithiothreitol"
+            }
+        }, 
+        {
+            "concentration": "0.1:mM", 
+            "name": "edta", 
+            "classification": {
+                "CHEBI": "EDTA(2-)"
+            }
+        }, 
+        {
+            "concentration": "200:microgram/ml", 
+            "name": "bsa", 
+            "classification": {
+                "UNIPROT": "ALBU_BOVIN"
+            }
+        }, 
+        {
+            "concentration": "50:percent", 
+            "name": "glycerol", 
+            "classification": {
+                "CHEBI": "glycerol"
+            }
+        }, 
+        {
+            "concentration": "10:units/microliter", 
+            "name": "msei"
+        }
+    ], 
+    "concentration": "5:units/microliter", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "63:dollars", 
+            "model_number": "r0525s", 
+            "volume": "50:microliter", 
+            "supplier": "neb", 
+            "date": "Unknown", 
+            "concentration": "10:units/microliter", 
+            "event": "acquired"
+        }
+    ]
+}

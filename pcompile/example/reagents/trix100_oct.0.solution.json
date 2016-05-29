@@ -1,0 +1,38 @@
+{
+    "volume": "1000:microliter", 
+    "classification": {
+        "_type": "unclassified_solution"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "triton x100; detergent; viscous", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en4txe22f:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "trix100_oct", 
+    "components": [
+        {
+            "concentration": "10:percent", 
+            "name": "triton_x100", 
+            "classification": {
+                "CHEBI": "Triton_X-100"
+            }
+        }
+    ], 
+    "concentration": "10:percent", 
+    "storage_temp": "any:celsius", 
+    "history": [
+        {
+            "price": "Unknown:dollars", 
+            "model_number": "Unknown", 
+            "volume": "1000:microliter", 
+            "supplier": "eisenlab", 
+            "date": "Unknown", 
+            "concentration": "10:percent", 
+            "event": "acquired"
+        }
+    ]
+}

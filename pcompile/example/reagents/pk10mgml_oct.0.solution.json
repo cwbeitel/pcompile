@@ -1,0 +1,60 @@
+{
+    "volume": "90:microliter", 
+    "classification": {
+        "supplier": "neb", 
+        "model": "p8102s"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "proteinase k", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en5uausuj:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "pk10mgml_oct", 
+    "components": [
+        {
+            "concentration": "10:mg/mL", 
+            "name": "proteinase_k", 
+            "classification": {
+                "KEGG": "proteinase_K"
+            }
+        }, 
+        {
+            "concentration": "20:mM", 
+            "name": "tris_hcl", 
+            "classification": {
+                "LOCAL": "tris_hcl"
+            }
+        }, 
+        {
+            "concentration": "1:mM", 
+            "name": "cacl2", 
+            "classification": {
+                "CHEBI": "calcium_dichloride"
+            }
+        }, 
+        {
+            "concentration": "50:percent", 
+            "name": "glycerol", 
+            "classification": {
+                "CHEBI": "glycerol"
+            }
+        }
+    ], 
+    "concentration": "10:milligrams/milliliter", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "Unknown:dollars", 
+            "model_number": "p8102s", 
+            "volume": "90:microliter", 
+            "supplier": "neb", 
+            "date": "Unknown", 
+            "concentration": "10:milligrams/milliliter", 
+            "event": "acquired"
+        }
+    ]
+}

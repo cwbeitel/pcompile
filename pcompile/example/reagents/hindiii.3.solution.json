@@ -1,0 +1,81 @@
+{
+    "volume": "125:microliter", 
+    "classification": {
+        "supplier": "neb", 
+        "model": "r0104s"
+    }, 
+    "other": {
+        "expiration": "exp 6 15", 
+        "full_label": "hindiii restriction enzyme", 
+        "components_string": "300 mm nacl; 10 mm tris-hcl; 1 mm dtt; 0.1 mm edta; 50% glycerol; 500 \u03bcg/ml bsa"
+    }, 
+    "container": {
+        "location": "ct177en7yq8zcx:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "hindiii", 
+    "components": [
+        {
+            "concentration": "300:mM", 
+            "name": "nacl", 
+            "classification": {
+                "CHEBI": "sodium_chloride"
+            }
+        }, 
+        {
+            "concentration": "10:mM", 
+            "name": "tris_hcl", 
+            "classification": {
+                "LOCAL": "tris_hcl"
+            }
+        }, 
+        {
+            "concentration": "1:mM", 
+            "name": "dtt", 
+            "classification": {
+                "CHEBI": "L-1,4-dithiothreitol"
+            }
+        }, 
+        {
+            "concentration": "0.1:mM", 
+            "name": "edta", 
+            "classification": {
+                "CHEBI": "EDTA(2-)"
+            }
+        }, 
+        {
+            "concentration": "50:percent", 
+            "name": "glycerol", 
+            "classification": {
+                "CHEBI": "glycerol"
+            }
+        }, 
+        {
+            "concentration": "500:ug/mL", 
+            "name": "bsa", 
+            "classification": {
+                "UNIPROT": "ALBU_BOVIN"
+            }
+        }, 
+        {
+            "concentration": "20:units/microliter", 
+            "name": "hindiii", 
+            "classification": {
+                "PFAM": "RE_HindIII"
+            }
+        }
+    ], 
+    "concentration": "20:units/microliter", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "55:dollars", 
+            "model_number": "r0104s", 
+            "volume": "500:microliter", 
+            "supplier": "neb", 
+            "date": "Unknown", 
+            "concentration": "20:units/microliter", 
+            "event": "acquired"
+        }
+    ]
+}

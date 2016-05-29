@@ -1,0 +1,38 @@
+{
+    "volume": "Unknown:microliter",
+    "classification": {
+        "supplier": "sigma",
+        "model": "67-68-5"
+    },
+    "other": {
+        "expiration": "Unknown",
+        "full_label": "proteinase inhibitor cocktail",
+        "components_string": "Unknown"
+    },
+    "container": {
+        "location": "ct177en4gnhxyj:transcriptic",
+        "ctype": "micro-1.5"
+    },
+    "name": "protinh_oct",
+    "components": [
+        {
+            "concentration": "50:x",
+            "classification": {
+                    "LOCAL": "protease_inhibitor"
+                }
+        }
+    ],
+    "concentration": "50:x",
+    "storage_temp": "-20:celsius",
+    "history": [
+        {
+            "price": "46.1:dollars",
+            "model_number": "67-68-5",
+            "volume": "Unknown:microliter",
+            "supplier": "sigma",
+            "date": "Unknown",
+            "concentration": "50:x",
+            "event": "acquired"
+        }
+    ]
+}

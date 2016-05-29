@@ -1,0 +1,38 @@
+{
+    "volume": "375:microliter", 
+    "classification": {
+        "_type": "unclassified_solution"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "triton x100", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en6fv5a7r:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "triton_x100", 
+    "components": [
+        {
+            "concentration": "10:percent", 
+            "name": "triton_x100", 
+            "classification": {
+                "CHEBI": "Triton_X-100"
+            }
+        }
+    ], 
+    "concentration": "10:percent", 
+    "storage_temp": "any:celsius", 
+    "history": [
+        {
+            "price": "Unknown:dollars", 
+            "model_number": "Unknown", 
+            "volume": "1500:microliter", 
+            "supplier": "eisenlab", 
+            "date": "Unknown", 
+            "concentration": "10:percent", 
+            "event": "acquired"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+---
+    name: "hichicago"
+    inputs:
+      -
+        container:
+          location: "ct177en2w6ggxv:transcriptic"
+        name: "seadna_oct"
+
+    reactions:
+      -
+        name: "lysis"
+        load: "lysis.yml"
+      -
+        name: "reconstitute_chromatin"
+        load: "reconstitute_chromatin.yml"
+      -
+        name: "crosslink"
+        load: "crosslink.yml"
+      -
+        name: "digestion"
+        load: "digestion.yml"
+      -
+        name: "ligation"
+        load: "ligation.yml"
+      -
+        name: "reversal"
+        load: "reversal.yml"
+      -
+        name: "purification"
+        load: "purification.yml"
+      -
+        name: "libraryprep"
+        load: "amplicon_library.yml"

@@ -1,0 +1,165 @@
+{
+  "refs": {
+    "{{beads}}": {
+      "id": "{{beads_id}}",
+      "store": {
+        "where": "cold_4"
+      }
+    },
+    "{{reaction_plate}}": {
+      "id": "{{reaction_plate_id}}",
+      "store": {
+        "where": "cold_20"
+      }
+    },
+    "{{water}}": {
+      "id": "{{water_id}}",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "{{ethanol}}": {
+      "id": "{{ethanol_id}}",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "{{input}}": {
+      "id": "{{input_id}}",
+      "store": {
+        "where": "cold_20"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "5.0:microliter",
+              "to": "{{reaction_plate}}/0",
+              "from": "{{input}}/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "9.0:microliter",
+              "to": "{{reaction_plate}}/0",
+              "from": "{{beads}}/0"
+            }
+          ]
+        },
+        {
+          "mix": [
+            {
+              "volume": "14.0:microliter",
+              "well": "{{reaction_plate}}/0",
+              "repetitions": 10,
+              "speed": "100:microliter/second"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "duration": "20:minute",
+      "where": "ambient",
+      "object": "{{reaction_plate}}",
+      "shaking": false,
+      "op": "incubate"
+    },
+    {
+      "x-magnetic_separate": {
+        "duration": "2:minute",
+        "object": "{{reaction_plate}}"
+      },
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "9.0:microliter",
+              "to": "{{reaction_plate}}/1",
+              "from": "{{reaction_plate}}/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "150.0:microliter",
+              "to": "{{reaction_plate}}/0",
+              "from": "{{ethanol}}/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "150.0:microliter",
+              "to": "{{reaction_plate}}/2",
+              "from": "{{reaction_plate}}/0"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "x-magnetic_separate": {
+        "duration": "20:minute",
+        "object": "{{reaction_plate}}"
+      },
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "60.0:microliter",
+              "to": "{{reaction_plate}}/0",
+              "from": "{{water}}/0"
+            }
+          ]
+        },
+        {
+          "mix": [
+            {
+              "volume": "65.0:microliter",
+              "well": "{{reaction_plate}}/0",
+              "repetitions": 20,
+              "speed": "100:microliter/second"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "duration": "5:minute",
+      "where": "ambient",
+      "object": "{{reaction_plate}}",
+      "shaking": false,
+      "op": "incubate"
+    },
+    {
+      "x-magnetic_separate": {
+        "duration": "5:minute",
+        "object": "{{reaction_plate}}"
+      },
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "61.75:microliter",
+              "to": "{{reaction_plate}}/3",
+              "from": "{{reaction_plate}}/0"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    }
+  ]
+}

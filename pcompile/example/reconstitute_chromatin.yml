@@ -1,0 +1,47 @@
+---
+  name: "reconstitute_chromatin"
+  reactions:
+    -
+      name: "reconstitute_chromatin_1"
+      params:
+        reaction_1_incubation_temp: '-20:celsius'
+        reaction_1_incubation_time: '15:minute'
+      solution:
+        components:
+          -
+            classification:
+              CHEBI: "lots of components ..."
+            concentration: "NN:percent"
+          -
+            classification:
+              CHEBI: "water"
+            concentration: "55:mol/liter"
+            _ignore: "True"
+        volume: "200:microliter"
+      constraints:
+        -
+          classification:
+            CHEBI: "glycerol"
+          concentration: "<5:percent"
+    -
+      name: "reconstitute_chromatin_2"
+      params:
+        reaction_2_incubation_temp: '27:celsius'
+        reaction_2_incubation_time: '4:hours'
+      solution:
+        components:
+          -
+            classification:
+              CHEBI: "lots of components ..."
+            concentration: "NN:percent"
+          -
+            classification:
+              CHEBI: "water"
+            concentration: "55:mol/liter"
+            _ignore: "True"
+        volume: "200:microliter"
+      constraints:
+        -
+          classification:
+            CHEBI: "glycerol"
+          concentration: "<5:percent"

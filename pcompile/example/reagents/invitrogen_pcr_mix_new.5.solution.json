@@ -1,0 +1,91 @@
+{
+    "volume": "750:microliter", 
+    "classification": {
+        "supplier": "invitrogen", 
+        "model": "11306-016"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "invitrogen platinum pcr supermix", 
+        "components_string": "22 u/ml complexed recombinant taq dna polymerase with platinum\u00ae taq antibody; 22 mm tris-hcl (ph 8.4); 55 mm kcl; 1.65 mm mgcl2; 220 \u00b5m dgtp; 220 \u00b5m datp; 220 \u00b5m dttp; 220 \u00b5m dctp; and stabilizers."
+    }, 
+    "container": {
+        "location": "ct177en7eyj5ec:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "invitrogen_pcr_mix_new", 
+    "components": [
+        {
+            "concentration": "220:uM", 
+            "name": "datp", 
+            "classification": {
+                "CHEBI": "dATP"
+            }
+        }, 
+        {
+            "concentration": "220:uM", 
+            "name": "dgtp", 
+            "classification": {
+                "CHEBI": "dGTP"
+            }
+        }, 
+        {
+            "concentration": "220:uM", 
+            "name": "dctp", 
+            "classification": {
+                "CHEBI": "dCTP"
+            }
+        }, 
+        {
+            "concentration": "220:uM", 
+            "name": "dttp", 
+            "classification": {
+                "CHEBI": "dTTP"
+            }
+        }, 
+        {
+            "concentration": "22:U/mL", 
+            "name": "taq_dna_polymerase", 
+            "classification": {
+                "KEGG": "Taq_DNA_polymerase"
+            }
+        }, 
+        {
+            "concentration": "55:mM", 
+            "name": "potassium_chloride_kcl", 
+            "classification": {
+                "CHEBI": "potassium_chloride"
+            }
+        }, 
+        {
+            "concentration": "1.65:mM", 
+            "name": "magnesium_dichloride_mgcl2", 
+            "classification": {
+                "CHEBI": "magnesium_dichloride"
+            }
+        }, 
+        {
+            "concentration": "22:mM", 
+            "name": "tris_hcl", 
+            "classification": {
+                "LOCAL": "tris_hcl"
+            }
+        }, 
+        {
+            "name": "stabilizers"
+        }
+    ], 
+    "concentration": "1:x", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "<140:dollars", 
+            "model_number": "11306-016", 
+            "volume": "1500:microliter", 
+            "supplier": "invitrogen", 
+            "date": "Unknown", 
+            "concentration": "1:x", 
+            "event": "acquired"
+        }
+    ]
+}

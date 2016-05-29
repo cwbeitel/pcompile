@@ -1,0 +1,35 @@
+{
+    "volume": "500:microliter", 
+    "classification": {
+        "_type": "unclassified_solution"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "synthetic bacterial mixture; fixed; tris quench", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en39hft9v:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "tqbmcb_oct", 
+    "components": [
+        {
+            "concentration": "unknown", 
+            "name": "bacterial_cells"
+        }
+    ], 
+    "concentration": "Unknown:micromolar", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "Unknown:dollars", 
+            "model_number": "Unknown", 
+            "volume": "500:microliter", 
+            "supplier": "eisenlab", 
+            "date": "Unknown", 
+            "concentration": "unknown:unknown", 
+            "event": "acquired"
+        }
+    ]
+}

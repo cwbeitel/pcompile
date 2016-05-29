@@ -1,0 +1,31 @@
+{
+    "volume": "450:microliter", 
+    "classification": {
+        "supplier": "invitrogen", 
+        "model": "custom"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "337r 16s pcr primer", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en5t9juu7:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "p16s337r_oct", 
+    "components": [], 
+    "concentration": "10um", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "Unknown:dollars", 
+            "model_number": "custom", 
+            "volume": "450:microliter", 
+            "supplier": "invitrogen", 
+            "date": "Unknown", 
+            "concentration": "10:micromolar", 
+            "event": "acquired"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "volume": "1500:microliter", 
+    "classification": {
+        "_type": "unclassified_solution"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "te", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en7sfhdat:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "tris_edta", 
+    "components": [
+        {
+            "concentration": "10:mM", 
+            "name": "tris", 
+            "classification": {
+                "CHEBI": "tris"
+            }
+        }, 
+        {
+            "concentration": "1:mM", 
+            "name": "edta", 
+            "classification": {
+                "CHEBI": "EDTA(2-)"
+            }
+        }
+    ], 
+    "concentration": "1:x", 
+    "storage_temp": "any:celsius", 
+    "history": [
+        {
+            "price": "Unknown:dollars", 
+            "model_number": "Unknown", 
+            "volume": "4500:microliter", 
+            "supplier": "eisenlab", 
+            "date": "Unknown", 
+            "concentration": "1:x", 
+            "event": "acquired"
+        }
+    ]
+}

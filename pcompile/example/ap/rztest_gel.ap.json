@@ -1,0 +1,25 @@
+
+Can't be submitted to system...
+
+{
+  "refs": {
+    "test_49629": {
+      "id": "???",
+      "store": {
+        "where": "ambient"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "dataref": "test_gel1234",
+      "matrix": "agarose(8,0.8%)",
+      "ladder": "ladder1",
+      "objects": [
+        "test_49629/4"
+      ],
+      "duration": "11:minute",
+      "op": "gel_separate"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+    "volume": "30:microliter", 
+    "classification": {
+        "supplier": "neb", 
+        "model": "r0156s"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "saci restriction enzyme", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en2v4c6kr:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "saci_oct", 
+    "components": [
+        {
+            "concentration": "10:mM", 
+            "name": "tris-hcl", 
+            "classification": {
+                "LOCAL": "tris_hcl"
+            }
+        }, 
+        {
+            "concentration": "100:mM", 
+            "name": "nacl", 
+            "classification": {
+                "CHEBI": "sodium_chloride"
+            }
+        }, 
+        {
+            "concentration": "1:mM", 
+            "name": "dtt", 
+            "classification": {
+                "CHEBI": "L-1,4-dithiothreitol"
+            }
+        }, 
+        {
+            "concentration": "0.1:mM", 
+            "name": "edta", 
+            "classification": {
+                "CHEBI": "EDTA(2-)"
+            }
+        }, 
+        {
+            "concentration": "200:microgram/ml", 
+            "name": "bsa", 
+            "classification": {
+                "UNIPROT": "ALBU_BOVIN"
+            }
+        }, 
+        {
+            "concentration": "50:percent", 
+            "name": "glycerol", 
+            "classification": {
+                "CHEBI": "glycerol"
+            }
+        }, 
+        {
+            "concentration": "20:units/microliter", 
+            "name": "saci", 
+            "classification": {
+                "PFAM": "RE_SacI"
+            }
+        }
+    ], 
+    "concentration": "20:units/microliter", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "55:dollars", 
+            "model_number": "r0156s", 
+            "volume": "30:microliter", 
+            "supplier": "neb", 
+            "date": "Unknown", 
+            "concentration": "20:units/microliter", 
+            "event": "acquired"
+        }
+    ]
+}

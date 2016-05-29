@@ -1,0 +1,74 @@
+{
+    "volume": "2:microliter", 
+    "classification": {
+        "supplier": "neb", 
+        "model": "m0202t"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "t4 dna ligase", 
+        "components_string": "10 mm tris-hcl; 50 mm kcl; 1 mm dtt; 0.1 mm edta; 50% glycerol"
+    }, 
+    "container": {
+        "location": "ct177en7qdswmv:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "t4_ligase_neb", 
+    "components": [
+        {
+            "concentration": "2000:units/microliter", 
+            "name": "t4_dna_ligase", 
+            "classification": {
+                "KEGG": "DNA_ligase"
+            }
+        }, 
+        {
+            "concentration": "10:mM", 
+            "name": "tris_hcl", 
+            "classification": {
+                "LOCAL": "tris_hcl"
+            }
+        }, 
+        {
+            "concentration": "50:mM", 
+            "name": "kcl", 
+            "classification": {
+                "CHEBI": "potassium_chloride"
+            }
+        }, 
+        {
+            "concentration": "1:mM", 
+            "name": "dtt", 
+            "classification": {
+                "CHEBI": "L-1,4-dithiothreitol"
+            }
+        }, 
+        {
+            "concentration": "0.1:mM", 
+            "name": "edta", 
+            "classification": {
+                "CHEBI": "EDTA(2-)"
+            }
+        }, 
+        {
+            "concentration": "50:percent", 
+            "name": "glycerol", 
+            "classification": {
+                "CHEBI": "glycerol"
+            }
+        }
+    ], 
+    "concentration": "2000:units/microliter", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "64:dollars", 
+            "model_number": "m0202t", 
+            "volume": "2:microliter", 
+            "supplier": "neb", 
+            "date": "Unknown", 
+            "concentration": "2000:units/microliter", 
+            "event": "acquired"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "volume": "200:microliter", 
+    "classification": {
+        "supplier": "invitrogen", 
+        "model": "46300-018"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "5x ligation buffer stock; invitrogen", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en25agcx4:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "ligation_buffer_invitrogen", 
+    "components": [], 
+    "concentration": "5:x", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "41.8:dollars", 
+            "model_number": "46300-018", 
+            "volume": "400:microliter", 
+            "supplier": "invitrogen", 
+            "date": "Unknown", 
+            "concentration": "5:x", 
+            "event": "acquired"
+        }
+    ]
+}

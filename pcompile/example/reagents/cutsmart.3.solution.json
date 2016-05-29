@@ -1,0 +1,60 @@
+{
+    "volume": "200:microliter", 
+    "classification": {
+        "supplier": "neb", 
+        "model": "b7204s"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "neb cutsmart digestion buffer", 
+        "components_string": "50mm potassium acetate; 20mm tris-acetate; 10mm magnesium acetate; 100\u03bcg/ml bsa"
+    }, 
+    "container": {
+        "location": "ct177en57cvb7q:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "cutsmart", 
+    "components": [
+        {
+            "concentration": "50:mM", 
+            "name": "potassium_acetate", 
+            "classification": {
+                "CHEBI": "potassium_acetate"
+            }
+        }, 
+        {
+            "concentration": "20:mM", 
+            "name": "tris_acetate", 
+            "classification": {
+                "CHEBI": "tris_acetate"
+            }
+        }, 
+        {
+            "concentration": "10:mM", 
+            "name": "magnesium_acetate", 
+            "classification": {
+                "CHEBI": "magnesium_acetate"
+            }
+        }, 
+        {
+            "concentration": "100:ug/ml", 
+            "name": "bsa", 
+            "classification": {
+                "UNIPROT": "ALBU_BOVIN"
+            }
+        }
+    ], 
+    "concentration": "10:x", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "18:dollars", 
+            "model_number": "b7204s", 
+            "volume": "800:microliter", 
+            "supplier": "neb", 
+            "date": "Unknown", 
+            "concentration": "10:x", 
+            "event": "acquired"
+        }
+    ]
+}

@@ -1,0 +1,1005 @@
+{
+  "refs": {
+    "lys_oct_387815": {
+      "id": "ct177en2cmehje",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "prot_inh_new_981774": {
+      "id": "ct177en29fp83j",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "water_661257": {
+      "id": "ct177en62fuqd7",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "beads_oct_717762": {
+      "id": "ct177en4w52gfx",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "water_381458": {
+      "id": "ct177en62fuqd7",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "t4_ligase_neb_479076": {
+      "id": "ct177en7qdswmv",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "water_61138": {
+      "id": "ct177en5xdh7jh",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "lysozyme_stock_dilute_170792": {
+      "id": "ct177en7pcx6sw",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "pro_k_new_696368": {
+      "id": "ct177en4bgh9u3",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "primer_16s_806_r_865031": {
+      "id": "ct177emzx4hrrk",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "lys_oct_420703": {
+      "id": "ct177en2cmehje",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "ethanol_871092": {
+      "id": "ct177emzy7udbs",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "neb21_oct_266451": {
+      "id": "ct177en5hsgyn2",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "beads_oct_688009": {
+      "id": "ct177en4w52gfx",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "water_238424": {
+      "id": "ct177en5xdh7jh",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "t4_ligase_neb_new_dilute_393230": {
+      "id": "ct177en4swu3yr",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "unlabeled_container_676534": {
+      "new": "96-pcr",
+      "store": {
+        "where": "cold_4"
+      }
+    },
+    "nebt4ligb_oct_603979": {
+      "id": "ct177en5r74a4k",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "primer_16s_515_f_444623": {
+      "id": "ct177en4ekra4j",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "unlabeled_container_793961": {
+      "new": "micro-1.5",
+      "store": {
+        "where": "cold_4"
+      }
+    },
+    "water_215433": {
+      "id": "ct177en62fuqd7",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "unlabeled_container_144268": {
+      "new": "micro-1.5",
+      "store": {
+        "where": "cold_4"
+      }
+    },
+    "triton_x100_89263": {
+      "id": "ct177en6du6zph",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "ethanol_766330": {
+      "id": "ct177emzy7udbs",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "hindiii_280024": {
+      "id": "ct177en7yq8zcx",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "invitrogen_pcr_mix_981433": {
+      "id": "ct177en4nuf5ju",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "seadna_oct_165157": {
+      "id": "ct177en2w6ggxv",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "t4_ligase_neb_new_954996": {
+      "id": "ct177en2kx89sm",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "water_505343": {
+      "id": "ct177en62fuqd7",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "water_956434": {
+      "id": "ct177en62fuqd7",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "lysozyme_100x_819612": {
+      "id": "ct177en3bjpvkc",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "sds_584166": {
+      "id": "ct177en528tbq4",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "lysozyme_stock_dilute_798006": {
+      "id": "ct177en7pcx6sw",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "lysozyme_100x_79557": {
+      "id": "ct177en3bjpvkc",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "rnasea_oct_278969": {
+      "id": "ct177en84tpxqt",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "water_148985": {
+      "id": "ct177en62fuqd7",
+      "store": {
+        "where": "ambient"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "10.6177310763:microliter",
+              "to": "unlabeled_container_676534/0",
+              "from": "prot_inh_new_981774/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "9.6306713121:microliter",
+              "to": "unlabeled_container_676534/0",
+              "from": "water_61138/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "5.59175666731:microliter",
+              "to": "unlabeled_container_676534/0",
+              "from": "lys_oct_387815/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "10.5351730695:microliter",
+              "to": "unlabeled_container_676534/0",
+              "from": "lysozyme_100x_79557/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "9.70734839127:microliter",
+              "to": "unlabeled_container_676534/0",
+              "from": "lysozyme_stock_dilute_798006/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "7.91731948188:microliter",
+              "to": "unlabeled_container_676534/0",
+              "from": "seadna_oct_165157/0"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "duration": "10:minute",
+      "where": "ambient",
+      "object": "unlabeled_container_676534",
+      "shaking": false,
+      "op": "incubate"
+    },
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "27.1992800548:microliter",
+              "to": "unlabeled_container_676534/1",
+              "from": "sds_584166/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "27.800719956:microliter",
+              "to": "unlabeled_container_676534/1",
+              "from": "unlabeled_container_676534/0"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "duration": "10:minute",
+      "where": "ambient",
+      "object": "unlabeled_container_676534",
+      "shaking": false,
+      "op": "incubate"
+    },
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "5.04185526735:microliter",
+              "to": "unlabeled_container_676534/2",
+              "from": "triton_x100_89263/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "6.47022025648:microliter",
+              "to": "unlabeled_container_676534/2",
+              "from": "water_956434/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "5.12710958674:microliter",
+              "to": "unlabeled_container_676534/2",
+              "from": "hindiii_280024/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "4.89676447635:microliter",
+              "to": "unlabeled_container_676534/2",
+              "from": "lys_oct_420703/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "5.05000683777:microliter",
+              "to": "unlabeled_container_676534/2",
+              "from": "lysozyme_100x_819612/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "5.24339972735:microliter",
+              "to": "unlabeled_container_676534/2",
+              "from": "lysozyme_stock_dilute_170792/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "5.40336716602:microliter",
+              "to": "unlabeled_container_676534/2",
+              "from": "neb21_oct_266451/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "2.7672765911:microliter",
+              "to": "unlabeled_container_676534/2",
+              "from": "unlabeled_container_676534/1"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "volume": "200:microliter",
+      "dataref": null,
+      "object": "unlabeled_container_676534",
+      "groups": [
+        {
+          "cycles": 1,
+          "steps": [
+            {
+              "duration": "8:hour",
+              "temperature": "37:celsius"
+            }
+          ]
+        }
+      ],
+      "op": "thermocycle"
+    },
+    {
+      "volume": "200:microliter",
+      "dataref": null,
+      "object": "unlabeled_container_676534",
+      "groups": [
+        {
+          "cycles": 1,
+          "steps": [
+            {
+              "duration": "20:minute",
+              "temperature": "65:celsius"
+            }
+          ]
+        }
+      ],
+      "op": "thermocycle"
+    },
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "5.0:microliter",
+              "to": "unlabeled_container_676534/3",
+              "from": "unlabeled_container_676534/2"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "30.7851764939:microliter",
+              "to": "unlabeled_container_676534/4",
+              "from": "water_661257/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "31.4281157938:microliter",
+              "to": "unlabeled_container_676534/4",
+              "from": "t4_ligase_neb_new_954996/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "30.9812931661:microliter",
+              "to": "unlabeled_container_676534/4",
+              "from": "t4_ligase_neb_new_dilute_393230/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "20.597612202:microliter",
+              "to": "unlabeled_container_676534/4",
+              "from": "t4_ligase_neb_479076/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "31.416997985:microliter",
+              "to": "unlabeled_container_676534/4",
+              "from": "nebt4ligb_oct_603979/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "4.79080435375:microliter",
+              "to": "unlabeled_container_676534/4",
+              "from": "unlabeled_container_676534/3"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "volume": "200:microliter",
+      "dataref": null,
+      "object": "unlabeled_container_676534",
+      "groups": [
+        {
+          "cycles": 1,
+          "steps": [
+            {
+              "duration": "3:hour",
+              "temperature": "16:celsius"
+            }
+          ]
+        }
+      ],
+      "op": "thermocycle"
+    },
+    {
+      "volume": "200:microliter",
+      "dataref": null,
+      "object": "unlabeled_container_676534",
+      "groups": [
+        {
+          "cycles": 1,
+          "steps": [
+            {
+              "duration": "20:minute",
+              "temperature": "65:celsius"
+            }
+          ]
+        }
+      ],
+      "op": "thermocycle"
+    },
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "5.0:microliter",
+              "to": "unlabeled_container_676534/5",
+              "from": "unlabeled_container_676534/4"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "47.6234868319:microliter",
+              "to": "unlabeled_container_676534/6",
+              "from": "water_381458/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "47.6809725002:microliter",
+              "to": "unlabeled_container_676534/6",
+              "from": "rnasea_oct_278969/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "4.69554067708:microliter",
+              "to": "unlabeled_container_676534/6",
+              "from": "unlabeled_container_676534/5"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "volume": "200:microliter",
+      "dataref": null,
+      "object": "unlabeled_container_676534",
+      "groups": [
+        {
+          "cycles": 1,
+          "steps": [
+            {
+              "duration": "20:minute",
+              "temperature": "65:celsius"
+            }
+          ]
+        }
+      ],
+      "op": "thermocycle"
+    },
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "49.5933870318:microliter",
+              "to": "unlabeled_container_676534/7",
+              "from": "pro_k_new_696368/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "50.0348628866:microliter",
+              "to": "unlabeled_container_676534/7",
+              "from": "water_505343/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "50.37175009:microliter",
+              "to": "unlabeled_container_676534/7",
+              "from": "unlabeled_container_676534/6"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "volume": "200:microliter",
+      "dataref": null,
+      "object": "unlabeled_container_676534",
+      "groups": [
+        {
+          "cycles": 1,
+          "steps": [
+            {
+              "duration": "12:hour",
+              "temperature": "65:celsius"
+            }
+          ]
+        }
+      ],
+      "op": "thermocycle"
+    },
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "5.0:microliter",
+              "to": "unlabeled_container_676534/8",
+              "from": "unlabeled_container_676534/7"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "5.0:microliter",
+              "to": "unlabeled_container_676534/8",
+              "from": "beads_oct_717762/0"
+            }
+          ]
+        },
+        {
+          "mix": [
+            {
+              "volume": "10.0:microliter",
+              "well": "unlabeled_container_676534/8",
+              "repetitions": 10,
+              "speed": "100:microliter/second"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "duration": "20:minute",
+      "where": "ambient",
+      "object": "unlabeled_container_676534",
+      "shaking": false,
+      "op": "incubate"
+    },
+    {
+      "x-magnetic_separate": {
+        "duration": "2:minute",
+        "object": "unlabeled_container_676534"
+      },
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "10.0:microliter",
+              "to": "unlabeled_container_676534/9",
+              "from": "unlabeled_container_676534/8"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "200.0:microliter",
+              "to": "unlabeled_container_676534/8",
+              "from": "ethanol_766330/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "200.0:microliter",
+              "to": "unlabeled_container_144268/0",
+              "from": "unlabeled_container_676534/8"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "groups": [],
+      "op": "pipette"
+    },
+    {
+      "duration": "20:minute",
+      "where": "ambient",
+      "object": "unlabeled_container_676534",
+      "shaking": false,
+      "op": "incubate"
+    },
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "60.0:microliter",
+              "to": "unlabeled_container_676534/8",
+              "from": "water_215433/0"
+            }
+          ]
+        },
+        {
+          "mix": [
+            {
+              "volume": "60.0:microliter",
+              "well": "unlabeled_container_676534/8",
+              "repetitions": 20,
+              "speed": "100:microliter/second"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "x-magnetic_separate": {
+        "duration": "5:minute",
+        "object": "unlabeled_container_676534"
+      },
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "57.0:microliter",
+              "to": "unlabeled_container_676534/10",
+              "from": "unlabeled_container_676534/8"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "5.0:microliter",
+              "to": "unlabeled_container_676534/11",
+              "from": "unlabeled_container_676534/10"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "12.2422634887:microliter",
+              "to": "unlabeled_container_676534/12",
+              "from": "invitrogen_pcr_mix_981433/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "12.1842899966:microliter",
+              "to": "unlabeled_container_676534/12",
+              "from": "primer_16s_515_f_444623/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "13.1924508746:microliter",
+              "to": "unlabeled_container_676534/12",
+              "from": "primer_16s_806_r_865031/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "14.2046603597:microliter",
+              "to": "unlabeled_container_676534/12",
+              "from": "water_238424/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "3.17632980161:microliter",
+              "to": "unlabeled_container_676534/12",
+              "from": "unlabeled_container_676534/11"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "object": "unlabeled_container_676534",
+      "op": "seal"
+    },
+    {
+      "volume": "10:microliter",
+      "dataref": null,
+      "object": "unlabeled_container_676534",
+      "groups": [
+        {
+          "cycles": 1,
+          "steps": [
+            {
+              "duration": "120:second",
+              "temperature": "94:celsius"
+            }
+          ]
+        },
+        {
+          "cycles": 30,
+          "steps": [
+            {
+              "duration": "45:second",
+              "temperature": "94:celsius"
+            },
+            {
+              "duration": "60:second",
+              "temperature": "55:celsius"
+            },
+            {
+              "duration": "90:second",
+              "temperature": "72:celsius"
+            }
+          ]
+        },
+        {
+          "cycles": 1,
+          "steps": [
+            {
+              "duration": "600:second",
+              "temperature": "72:celsius"
+            },
+            {
+              "duration": "600:second",
+              "temperature": "8:celsius"
+            }
+          ]
+        }
+      ],
+      "op": "thermocycle"
+    },
+    {
+      "object": "unlabeled_container_676534",
+      "op": "unseal"
+    },
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "5.0:microliter",
+              "to": "unlabeled_container_676534/13",
+              "from": "unlabeled_container_676534/12"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "5.0:microliter",
+              "to": "unlabeled_container_676534/13",
+              "from": "beads_oct_688009/0"
+            }
+          ]
+        },
+        {
+          "mix": [
+            {
+              "volume": "10.0:microliter",
+              "well": "unlabeled_container_676534/13",
+              "repetitions": 10,
+              "speed": "100:microliter/second"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "duration": "20:minute",
+      "where": "ambient",
+      "object": "unlabeled_container_676534",
+      "shaking": false,
+      "op": "incubate"
+    },
+    {
+      "x-magnetic_separate": {
+        "duration": "2:minute",
+        "object": "unlabeled_container_676534"
+      },
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "10.0:microliter",
+              "to": "unlabeled_container_676534/14",
+              "from": "unlabeled_container_676534/13"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "200.0:microliter",
+              "to": "unlabeled_container_676534/13",
+              "from": "ethanol_871092/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "200.0:microliter",
+              "to": "unlabeled_container_793961/0",
+              "from": "unlabeled_container_676534/13"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "groups": [],
+      "op": "pipette"
+    },
+    {
+      "duration": "20:minute",
+      "where": "ambient",
+      "object": "unlabeled_container_676534",
+      "shaking": false,
+      "op": "incubate"
+    },
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "60.0:microliter",
+              "to": "unlabeled_container_676534/13",
+              "from": "water_148985/0"
+            }
+          ]
+        },
+        {
+          "mix": [
+            {
+              "volume": "60.0:microliter",
+              "well": "unlabeled_container_676534/13",
+              "repetitions": 20,
+              "speed": "100:microliter/second"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "x-magnetic_separate": {
+        "duration": "5:minute",
+        "object": "unlabeled_container_676534"
+      },
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "57.0:microliter",
+              "to": "unlabeled_container_676534/15",
+              "from": "unlabeled_container_676534/13"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    }
+  ]
+}

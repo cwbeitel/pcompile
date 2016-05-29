@@ -1,0 +1,35 @@
+{
+    "volume": "50:microliter", 
+    "classification": {
+        "_type": "unclassified_solution"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "pink berry aggregate dna extract", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en66mmcc9:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "berrydna_oct", 
+    "components": [
+        {
+            "concentration": "unknown", 
+            "name": "dna"
+        }
+    ], 
+    "concentration": "Unknown:micromolar", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "Unknown:dollars", 
+            "model_number": "Unknown", 
+            "volume": "50:microliter", 
+            "supplier": "eisenlab", 
+            "date": "Unknown", 
+            "concentration": "unknown:unknown", 
+            "event": "acquired"
+        }
+    ]
+}

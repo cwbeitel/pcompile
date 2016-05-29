@@ -1,0 +1,81 @@
+{
+    "volume": "36:microliter", 
+    "classification": {
+        "supplier": "epicentre", 
+        "model": "r1802m; r1804m; or r1810m?"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "lysozyme", 
+        "components_string": "50% glycerol containing 50 mm tris-hcl (ph 7.5); 0.1 m nacl; 0.1 mm edta; 1 mm dtt; and 0.1% triton\u00ae x-100."
+    }, 
+    "container": {
+        "location": "ct177en3bjpvkc:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "lysozyme_100x", 
+    "components": [
+        {
+            "concentration": "500:units/microliter", 
+            "name": "lysozyme", 
+            "classification": {
+                "KEGG_ORTHOLOGY": "K01185"
+            }
+        }, 
+        {
+            "concentration": "50:mM", 
+            "name": "tris-hcl", 
+            "classification": {
+                "LOCAL": "tris_hcl"
+            }
+        }, 
+        {
+            "concentration": "0.1:M", 
+            "name": "nacl", 
+            "classification": {
+                "CHEBI": "sodium_chloride"
+            }
+        }, 
+        {
+            "concentration": "0.1:mM", 
+            "name": "edta", 
+            "classification": {
+                "CHEBI": "EDTA(2-)"
+            }
+        }, 
+        {
+            "concentration": "1:mM", 
+            "name": "dtt", 
+            "classification": {
+                "CHEBI": "L-1,4-dithiothreitol"
+            }
+        }, 
+        {
+            "concentration": "0.1:percent", 
+            "name": "triton_x100", 
+            "classification": {
+                "CHEBI": "Triton_X-100"
+            }
+        }, 
+        {
+            "concentration": "50:percent", 
+            "name": "glycerol", 
+            "classification": {
+                "CHEBI": "glycerol"
+            }
+        }
+    ], 
+    "concentration": "500:units/microliter", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "102:dollars", 
+            "model_number": "r1802m; r1804m; or r1810m?", 
+            "volume": "9:microliter", 
+            "supplier": "epicentre", 
+            "date": "Unknown", 
+            "concentration": "2000:units/microliter", 
+            "event": "acquired"
+        }
+    ]
+}

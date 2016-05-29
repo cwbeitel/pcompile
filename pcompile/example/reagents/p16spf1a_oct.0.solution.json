@@ -1,0 +1,41 @@
+{
+    "volume": "100:microliter", 
+    "classification": {
+        "supplier": "invitrogen", 
+        "model": "custom"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "eisen lab 16s forward primer/adapter", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en65j787v:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "p16spf1a_oct", 
+    "components": [
+        {
+            "concentration": "10:uM", 
+            "name": "pcr_primer", 
+            "classification": {
+                "CHEBI": "double-stranded_DNA", 
+                "target": "16s", 
+                "orientation": "f"
+            }
+        }
+    ], 
+    "concentration": "10um", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "Unknown:dollars", 
+            "model_number": "custom", 
+            "volume": "100:microliter", 
+            "supplier": "invitrogen", 
+            "date": "Unknown", 
+            "concentration": "10:micromolar", 
+            "event": "acquired"
+        }
+    ]
+}

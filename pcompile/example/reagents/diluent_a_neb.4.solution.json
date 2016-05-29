@@ -1,0 +1,74 @@
+{
+    "volume": "1000:microliter", 
+    "classification": {
+        "supplier": "neb", 
+        "model": "b8001s"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "diluent a neb", 
+        "components_string": "10mm tris-hcl, 1mm dtt, 0.1mm edta, 50% glycerol, 200\u03bcg/ml bsa, 50mm kcl"
+    }, 
+    "container": {
+        "location": "ct177en6myyp56:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "diluent_a_neb", 
+    "components": [
+        {
+            "concentration": "10:mM", 
+            "name": "tris_hcl", 
+            "classification": {
+                "LOCAL": "tris_hcl"
+            }
+        }, 
+        {
+            "concentration": "1:mM", 
+            "name": "dtt", 
+            "classification": {
+                "CHEBI": "L-1,4-dithiothreitol"
+            }
+        }, 
+        {
+            "concentration": "0.1:mM", 
+            "name": "edta", 
+            "classification": {
+                "CHEBI": "EDTA(2-)"
+            }
+        }, 
+        {
+            "concentration": "50:percent", 
+            "name": "glycerol", 
+            "classification": {
+                "CHEBI": "glycerol"
+            }
+        }, 
+        {
+            "concentration": "200:ug/mL", 
+            "name": "bsa", 
+            "classification": {
+                "UNIPROT": "ALBU_BOVIN"
+            }
+        }, 
+        {
+            "concentration": "50:mM", 
+            "name": "kcl", 
+            "classification": {
+                "CHEBI": "potassium_chloride"
+            }
+        }
+    ], 
+    "concentration": "1:x", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "27.00:dollars", 
+            "model_number": "b8001s", 
+            "volume": "5000:microliter", 
+            "supplier": "neb", 
+            "date": "Unknown", 
+            "concentration": "1:x", 
+            "event": "acquired"
+        }
+    ]
+}

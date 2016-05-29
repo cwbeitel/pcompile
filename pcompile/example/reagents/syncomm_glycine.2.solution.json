@@ -1,0 +1,35 @@
+{
+    "volume": "50:microliter", 
+    "classification": {
+        "_type": "unclassified_solution"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "synthetic bacterial mixture; fixed; gly quench", 
+        "components_string": "l. brevis; p. pentosaceus; e. coli bl21; e. coli k12; b. thailandensis (non-pathogenic)"
+    }, 
+    "container": {
+        "location": "ct177en74gb6up:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "syncomm_glycine", 
+    "components": [
+        {
+            "concentration": "30e6:cells/milliliter", 
+            "name": "bacterial_cells"
+        }
+    ], 
+    "concentration": "30e6:cells/milliliter", 
+    "storage_temp": "-80:celsius", 
+    "history": [
+        {
+            "price": "Unknown:dollars", 
+            "model_number": "Unknown", 
+            "volume": "250:microliter", 
+            "supplier": "eisenlab", 
+            "date": "Unknown", 
+            "concentration": "30e6:cells/milliliter", 
+            "event": "acquired"
+        }
+    ]
+}

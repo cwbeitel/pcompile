@@ -1,0 +1,38 @@
+{
+    "volume": "1500:microliter", 
+    "classification": {
+        "_type": "unclassified_solution"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "ethanol", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en2296rxc:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "ethanol", 
+    "components": [
+        {
+            "concentration": "100:percent", 
+            "name": "ethanol", 
+            "classification": {
+                "CHEBI": "ethanol"
+            }
+        }
+    ], 
+    "concentration": "100:percent", 
+    "storage_temp": "4:celsius", 
+    "history": [
+        {
+            "price": "Unknown:dollars", 
+            "model_number": "Unknown", 
+            "volume": "6000:microliter", 
+            "supplier": "eisenlab", 
+            "date": "Unknown", 
+            "concentration": "100:percent", 
+            "event": "acquired"
+        }
+    ]
+}

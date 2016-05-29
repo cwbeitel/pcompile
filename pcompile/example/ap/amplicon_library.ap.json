@@ -1,0 +1,297 @@
+{
+  "refs": {
+    "ethanol_243820": {
+      "id": "ct177emzy7udbs",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "unlabeled_container_922737": {
+      "new": "96-pcr",
+      "store": {
+        "where": "cold_4"
+      }
+    },
+    "test_658918": {
+      "id": "ct17kghgvp83mx",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "water_428373": {
+      "id": "ct177en62fuqd7",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "primer_16s_515_f_323760": {
+      "id": "ct177en4ekra4j",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "beads_oct_204735": {
+      "id": "ct177en4w52gfx",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "invitrogen_pcr_mix_314018": {
+      "id": "ct177en4nuf5ju",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "water_536673": {
+      "id": "ct177en5xdh7jh",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "primer_16s_806_r_914259": {
+      "id": "ct177emzx4hrrk",
+      "store": {
+        "where": "ambient"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "5.0:microliter",
+              "to": "unlabeled_container_922737/0",
+              "from": "test_658918/27"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "48.0:microliter",
+              "to": "unlabeled_container_922737/1",
+              "from": "invitrogen_pcr_mix_314018/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "1.09999999637:microliter",
+              "to": "unlabeled_container_922737/1",
+              "from": "primer_16s_515_f_323760/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "1.09999999602:microliter",
+              "to": "unlabeled_container_922737/1",
+              "from": "primer_16s_806_r_914259/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "4.45892574437:microliter",
+              "to": "unlabeled_container_922737/1",
+              "from": "unlabeled_container_922737/0"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "object": "unlabeled_container_922737",
+      "op": "seal"
+    },
+    {
+      "volume": "10:microliter",
+      "dataref": null,
+      "object": "unlabeled_container_922737",
+      "groups": [
+        {
+          "cycles": 1,
+          "steps": [
+            {
+              "duration": "120:second",
+              "temperature": "94:celsius"
+            }
+          ]
+        },
+        {
+          "cycles": 30,
+          "steps": [
+            {
+              "duration": "45:second",
+              "temperature": "94:celsius"
+            },
+            {
+              "duration": "60:second",
+              "temperature": "55:celsius"
+            },
+            {
+              "duration": "90:second",
+              "temperature": "72:celsius"
+            }
+          ]
+        },
+        {
+          "cycles": 1,
+          "steps": [
+            {
+              "duration": "600:second",
+              "temperature": "72:celsius"
+            },
+            {
+              "duration": "600:second",
+              "temperature": "8:celsius"
+            }
+          ]
+        }
+      ],
+      "op": "thermocycle"
+    },
+    {
+      "object": "unlabeled_container_922737",
+      "op": "unseal"
+    },
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "5.0:microliter",
+              "to": "unlabeled_container_922737/2",
+              "from": "unlabeled_container_922737/1"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "9.0:microliter",
+              "to": "unlabeled_container_922737/2",
+              "from": "beads_oct_204735/0"
+            }
+          ]
+        },
+        {
+          "mix": [
+            {
+              "volume": "14.0:microliter",
+              "well": "unlabeled_container_922737/2",
+              "repetitions": 10,
+              "speed": "100:microliter/second"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "duration": "20:minute",
+      "where": "ambient",
+      "object": "unlabeled_container_922737",
+      "shaking": false,
+      "op": "incubate"
+    },
+    {
+      "x-magnetic_separate": {
+        "duration": "2:minute",
+        "object": "unlabeled_container_922737"
+      },
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "14.0:microliter",
+              "to": "unlabeled_container_922737/3",
+              "from": "unlabeled_container_922737/2"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "150.0:microliter",
+              "to": "unlabeled_container_922737/2",
+              "from": "ethanol_243820/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "150.0:microliter",
+              "to": "unlabeled_container_922737/4",
+              "from": "unlabeled_container_922737/2"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "duration": "20:minute",
+      "where": "ambient",
+      "object": "unlabeled_container_922737",
+      "shaking": false,
+      "op": "incubate"
+    },
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "60.0:microliter",
+              "to": "unlabeled_container_922737/2",
+              "from": "water_428373/0"
+            }
+          ]
+        },
+        {
+          "mix": [
+            {
+              "volume": "60.0:microliter",
+              "well": "unlabeled_container_922737/2",
+              "repetitions": 20,
+              "speed": "100:microliter/second"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "duration": "5:minute",
+      "where": "ambient",
+      "object": "unlabeled_container_922737",
+      "shaking": false,
+      "op": "incubate"
+    },
+    {
+      "x-magnetic_separate": {
+        "duration": "5:minute",
+        "object": "unlabeled_container_922737"
+      },
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "57.0:microliter",
+              "to": "unlabeled_container_922737/5",
+              "from": "unlabeled_container_922737/2"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    }
+  ]
+}

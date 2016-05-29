@@ -1,0 +1,38 @@
+{
+    "volume": "250:microliter",
+    "classification": {
+        "supplier": "sigma",
+        "model": "p8340-1ml"
+    },
+    "other": {
+        "expiration": "Unknown",
+        "full_label": "proteinase inhibitor cocktail",
+        "components_string": "Unknown"
+    },
+    "container": {
+        "location": "ct177en27c4jax:transcriptic",
+        "ctype": "micro-1.5"
+    },
+    "name": "prot_inh_new",
+    "components": [
+        {
+            "concentration": "25:x",
+            "classification": {
+                    "LOCAL": "protease_inhibitor"
+                }
+        }
+    ],
+    "concentration": "25:x",
+    "storage_temp": "-20:celsius",
+    "history": [
+        {
+            "price": "69.70:dollars",
+            "model_number": "p8340-1ml",
+            "volume": "Unknown:microliter",
+            "supplier": "sigma",
+            "date": "Unknown",
+            "concentration": "Unknown",
+            "event": "acquired"
+        }
+    ]
+}

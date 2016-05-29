@@ -1,0 +1,60 @@
+{
+    "volume": "1500:microliter", 
+    "classification": {
+        "supplier": "neb", 
+        "model": "b7202s"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "nebuffer 2.1", 
+        "components_string": "50mm nacl; 10mm tris-hcl; 10mm mgcl2; 100\u03bcg/ml bsa"
+    }, 
+    "container": {
+        "location": "ct177en5hsgyn2:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "neb21_oct", 
+    "components": [
+        {
+            "concentration": "50:mM", 
+            "name": "nacl", 
+            "classification": {
+                "CHEBI": "sodium_chloride"
+            }
+        }, 
+        {
+            "concentration": "10:mM", 
+            "name": "tris_hcl", 
+            "classification": {
+                "LOCAL": "tris_hcl"
+            }
+        }, 
+        {
+            "concentration": "100:ug/mL", 
+            "name": "bsa", 
+            "classification": {
+                "UNIPROT": "ALBU_BOVIN"
+            }
+        }, 
+        {
+            "concentration": "10:mM", 
+            "name": "mgcl2", 
+            "classification": {
+                "CHEBI": "magnesium_dichloride"
+            }
+        }
+    ], 
+    "concentration": "10:x", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "18:dollars", 
+            "model_number": "b7202s", 
+            "volume": "1500:microliter", 
+            "supplier": "neb", 
+            "date": "Unknown", 
+            "concentration": "10:x", 
+            "event": "acquired"
+        }
+    ]
+}

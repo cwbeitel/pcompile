@@ -1,0 +1,35 @@
+{
+    "volume": "15:microliter",
+    "classification": {
+        "_type": "unclassified_solution"
+    },
+    "other": {
+        "expiration": "Unknown",
+        "full_label": "small tube; seagrass soil dna in etoh",
+        "components_string": "Unknown"
+    },
+    "container": {
+        "location": "ct177en2w6ggxv:transcriptic",
+        "ctype": "micro-1.5"
+    },
+    "name": "seadna_oct",
+    "components": [
+        {
+            "concentration": "44.8:nanograms/microliter",
+            "name": "dna"
+        }
+    ],
+    "concentration": "44.8:nanograms/microliter",
+    "storage_temp": "-20:celsius",
+    "history": [
+        {
+            "price": "Unknown:dollars",
+            "model_number": "Unknown",
+            "volume": "15:microliter",
+            "supplier": "eisenlab",
+            "date": "Unknown",
+            "concentration": "44.8:nanograms/microliter",
+            "event": "acquired"
+        }
+    ]
+}

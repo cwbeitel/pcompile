@@ -1,0 +1,60 @@
+{
+    "volume": "1500:microliter", 
+    "classification": {
+        "supplier": "neb", 
+        "model": "b0202s"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "buffer for t4 dna ligase; neb; 10x", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en5r74a4k:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "nebt4ligb_oct", 
+    "components": [
+        {
+            "concentration": "50:mM", 
+            "name": "tris_hcl", 
+            "classification": {
+                "LOCAL": "tris_hcl"
+            }
+        }, 
+        {
+            "concentration": "10:mM", 
+            "name": "mgcl2", 
+            "classification": {
+                "CHEBI": "magnesium_dichloride"
+            }
+        }, 
+        {
+            "concentration": "1:mM", 
+            "name": "atp", 
+            "classification": {
+                "CHEBI": "ATP"
+            }
+        }, 
+        {
+            "concentration": "10:mM", 
+            "name": "dtt", 
+            "classification": {
+                "CHEBI": "L-1,4-dithiothreitol"
+            }
+        }
+    ], 
+    "concentration": "10:x", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "18:dollars", 
+            "model_number": "b0202s", 
+            "volume": "1500:microliter", 
+            "supplier": "neb", 
+            "date": "Unknown", 
+            "concentration": "10:x", 
+            "event": "acquired"
+        }
+    ]
+}

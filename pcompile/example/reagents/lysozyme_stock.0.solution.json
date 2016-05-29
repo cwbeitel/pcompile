@@ -1,0 +1,31 @@
+{
+    "volume": "8:microliter", 
+    "classification": {
+        "supplier": "epicentre", 
+        "model": "r1802m; r1804m; or r1810m?"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "lysozyme", 
+        "components_string": "50% glycerol containing 50 mm tris-hcl (ph 7.5); 0.1 m nacl; 0.1 mm edta; 1 mm dtt; and 0.1% triton\u00ae x-100."
+    }, 
+    "container": {
+        "location": "ct177en3t63yqn:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "lysozyme_stock", 
+    "components": [], 
+    "concentration": "35000:u/ul", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "102:dollars", 
+            "model_number": "r1802m; r1804m; or r1810m?", 
+            "volume": "8:microliter", 
+            "supplier": "epicentre", 
+            "date": "Unknown", 
+            "concentration": "35000:units/microliter", 
+            "event": "acquired"
+        }
+    ]
+}

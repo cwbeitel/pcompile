@@ -1,0 +1,150 @@
+{
+  "refs": {
+    "seadna_oct_113309": {
+      "id": "ct177en2w6ggxv",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "t4_ligase_neb_new_426377": {
+      "id": "ct177en2kx89sm",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "water_728999": {
+      "id": "ct177en62fuqd7",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "t4_ligase_neb_new_dilute_73786": {
+      "id": "ct177en4swu3yr",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "t4_ligase_neb_788729": {
+      "id": "ct177en7qdswmv",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "nebt4ligb_oct_479637": {
+      "id": "ct177en5r74a4k",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "unlabeled_container_765914": {
+      "new": "96-pcr",
+      "store": {
+        "where": "cold_4"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "5.0:microliter",
+              "to": "unlabeled_container_765914/0",
+              "from": "seadna_oct_113309/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "31.103853567:microliter",
+              "to": "unlabeled_container_765914/1",
+              "from": "water_728999/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "30.9810496829:microliter",
+              "to": "unlabeled_container_765914/1",
+              "from": "t4_ligase_neb_new_426377/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "32.6540027494:microliter",
+              "to": "unlabeled_container_765914/1",
+              "from": "t4_ligase_neb_new_dilute_73786/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "20.6291827043:microliter",
+              "to": "unlabeled_container_765914/1",
+              "from": "t4_ligase_neb_788729/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "31.200226754:microliter",
+              "to": "unlabeled_container_765914/1",
+              "from": "nebt4ligb_oct_479637/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "3.43168454194:microliter",
+              "to": "unlabeled_container_765914/1",
+              "from": "unlabeled_container_765914/0"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "volume": "200:microliter",
+      "dataref": null,
+      "object": "unlabeled_container_765914",
+      "groups": [
+        {
+          "cycles": 1,
+          "steps": [
+            {
+              "duration": "3:hour",
+              "temperature": "16:celsius"
+            }
+          ]
+        }
+      ],
+      "op": "thermocycle"
+    },
+    {
+      "volume": "200:microliter",
+      "dataref": null,
+      "object": "unlabeled_container_765914",
+      "groups": [
+        {
+          "cycles": 1,
+          "steps": [
+            {
+              "duration": "20:minute",
+              "temperature": "65:celsius"
+            }
+          ]
+        }
+      ],
+      "op": "thermocycle"
+    }
+  ]
+}

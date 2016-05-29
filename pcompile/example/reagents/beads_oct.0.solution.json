@@ -1,0 +1,38 @@
+{
+    "volume": "200:microliter",
+    "classification": {
+        "_type": "unclassified_solution"
+    },
+    "other": {
+        "expiration": "",
+        "full_label": "magnetic beads for dna purification; ampure",
+        "components_string": "Unknown"
+    },
+    "container": {
+        "location": "ct177en4w52gfx:transcriptic",
+        "ctype": "micro-1.5"
+    },
+    "name": "beads_oct",
+    "components": [
+        {
+            "concentration": "1:x",
+            "name": "magnetic_beads",
+            "classification": {
+                "LOCAL": "magbeads"
+            }
+        }
+    ],
+    "concentration": "1:x",
+    "storage_temp": "4:celsius",
+    "history": [
+        {
+            "price": "Unknown:dollars",
+            "model_number": "Unknown",
+            "volume": "200:microliter",
+            "supplier": "agencourt",
+            "date": "Unknown",
+            "concentration": "unknown:unknown",
+            "event": "acquired"
+        }
+    ]
+}

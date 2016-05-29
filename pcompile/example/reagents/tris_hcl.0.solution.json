@@ -1,0 +1,38 @@
+{
+    "volume": "750:microliter",
+    "classification": {
+        "_type": "unclassified_solution"
+    },
+    "other": {
+        "expiration": "Unknown",
+        "full_label": "elution buffer; macherey-nagel",
+        "components_string": "5 mm tris/hcl; ph 8.5"
+    },
+    "container": {
+        "location": "ct177en3s5suf7:transcriptic",
+        "ctype": "micro-1.5"
+    },
+    "name": "tris_hcl",
+    "components": [
+        {
+            "concentration": "5:mM",
+            "name": "tris",
+            "classification": {
+                "CHEBI": "tris"
+            }
+        }
+    ],
+    "concentration": "5:millimolar",
+    "storage_temp": "any:celsius",
+    "history": [
+        {
+            "price": "Unknown:dollars",
+            "model_number": "Unknown",
+            "volume": "3000:microliter",
+            "supplier": "eisenlab",
+            "date": "Unknown",
+            "concentration": "5:millimolar",
+            "event": "acquired"
+        }
+    ]
+}

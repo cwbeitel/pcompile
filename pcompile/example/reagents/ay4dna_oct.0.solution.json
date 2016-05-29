@@ -1,0 +1,35 @@
+{
+    "volume": "70:microliter", 
+    "classification": {
+        "_type": "unclassified_solution"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "clear dna solution in etoh", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en3u7g824:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "ay4dna_oct", 
+    "components": [
+        {
+            "concentration": "unknown", 
+            "name": "dna"
+        }
+    ], 
+    "concentration": "Unknown:micromolar", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "Unknown:dollars", 
+            "model_number": "Unknown", 
+            "volume": "70:microliter", 
+            "supplier": "eisenlab", 
+            "date": "Unknown", 
+            "concentration": "22.4:nanograms/microliter", 
+            "event": "acquired"
+        }
+    ]
+}

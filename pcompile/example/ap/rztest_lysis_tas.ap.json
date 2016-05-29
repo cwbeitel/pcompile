@@ -1,0 +1,180 @@
+{
+  "refs": {
+    "prot_inh_new_380339": {
+      "id": "ct177en29fp83j",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "unlabeled_container_953621": {
+      "new": "96-pcr",
+      "store": {
+        "where": "cold_4"
+      }
+    },
+    "lysozyme_stock_dilute_281747": {
+      "id": "ct177en7pcx6sw",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "water_709008": {
+      "id": "ct177en5xdh7jh",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "nxlz1_1234": {
+      "id": "ct177en2zatm9c",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "xlgz1_4321": {
+      "id": "ct177en64hqkf9",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "sds_841626": {
+      "id": "ct177en528tbq4",
+      "store": {
+        "where": "ambient"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "2.0:microliter",
+              "to": "unlabeled_container_953621/0",
+              "from": "prot_inh_new_380339/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "42.2:microliter",
+              "to": "unlabeled_container_953621/0",
+              "from": "water_709008/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "8.8:microliter",
+              "to": "unlabeled_container_953621/0",
+              "from": "lysozyme_stock_dilute_281747/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "2.0:microliter",
+              "to": "unlabeled_container_953621/0",
+              "from": "nxlz1_1234/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "2.0:microliter",
+              "to": "unlabeled_container_953621/1",
+              "from": "prot_inh_new_380339/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "42.2:microliter",
+              "to": "unlabeled_container_953621/1",
+              "from": "water_709008/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "8.8:microliter",
+              "to": "unlabeled_container_953621/1",
+              "from": "lysozyme_stock_dilute_281747/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "2.0:microliter",
+              "to": "unlabeled_container_953621/1",
+              "from": "xlgz1_4321/0"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "duration": "10:minute",
+      "where": "ambient",
+      "object": "unlabeled_container_953621",
+      "shaking": false,
+      "op": "incubate"
+    },
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "2.5:microliter",
+              "to": "unlabeled_container_953621/2",
+              "from": "sds_841626/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "50.0:microliter",
+              "to": "unlabeled_container_953621/2",
+              "from": "unlabeled_container_953621/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "2.5:microliter",
+              "to": "unlabeled_container_953621/3",
+              "from": "sds_841626/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "50.0:microliter",
+              "to": "unlabeled_container_953621/3",
+              "from": "unlabeled_container_953621/1"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "duration": "10:minute",
+      "where": "ambient",
+      "object": "unlabeled_container_953621",
+      "shaking": false,
+      "op": "incubate"
+    }
+  ]
+}

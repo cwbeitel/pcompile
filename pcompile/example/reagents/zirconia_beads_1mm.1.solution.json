@@ -1,0 +1,39 @@
+{
+    "volume": "1500:microliter", 
+    "classification": {
+        "supplier": "biospec", 
+        "model": "11079110zx"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "zirconia beads for mechanical cell lysis; 1mm", 
+        "components_string": "zirconia"
+    }, 
+    "container": {
+        "location": "ct177en5vbw26p:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "zirconia_beads_1mm", 
+    "components": [
+        {
+            "concentration": "100:percent", 
+            "name": "zirconia_beads", 
+            "classification": {
+                "LOCAL": "zirconia_beads_1"
+            }
+        }
+    ], 
+    "concentration": "solid:none", 
+    "storage_temp": "any:celsius", 
+    "history": [
+        {
+            "price": "Unknown:dollars", 
+            "model_number": "11079110zx", 
+            "volume": "3000:microliter", 
+            "supplier": "biospec", 
+            "date": "Unknown", 
+            "concentration": "solid:none", 
+            "event": "acquired"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "volume": "25:microliter", 
+    "classification": {
+        "supplier": "invitrogen", 
+        "model": "custom"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "16s pcr primer; f; position 515", 
+        "components_string": "synthetic oligo pcr primer"
+    }, 
+    "container": {
+        "location": "ct177en4ekra4j:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "primer_16s_515_f", 
+    "components": [
+        {
+            "concentration": "10:uM", 
+            "name": "pcr_primer", 
+            "classification": {
+                "CHEBI": "double-stranded_DNA", 
+                "target": "515:16s", 
+                "orientation": "f"
+            }
+        }
+    ], 
+    "concentration": "10:micromolar", 
+    "storage_temp": "-80:celsius", 
+    "history": [
+        {
+            "price": "Unknown:dollars", 
+            "model_number": "custom", 
+            "volume": "50:microliter", 
+            "supplier": "invitrogen", 
+            "date": "Unknown", 
+            "concentration": "10:micromolar", 
+            "event": "acquired"
+        }
+    ]
+}

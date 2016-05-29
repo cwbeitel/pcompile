@@ -1,0 +1,38 @@
+{
+    "volume": "375:microliter", 
+    "classification": {
+        "_type": "unclassified_solution"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "sds; detergent", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en4z8akuf:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "sds", 
+    "components": [
+        {
+            "concentration": "10:percent", 
+            "name": "sds", 
+            "classification": {
+                "CHEBI": "sodium_dodecyl_sulfate"
+            }
+        }
+    ], 
+    "concentration": "10:percent", 
+    "storage_temp": "rt:celsius", 
+    "history": [
+        {
+            "price": "Unknown:dollars", 
+            "model_number": "Unknown", 
+            "volume": "1500:microliter", 
+            "supplier": "eisenlab", 
+            "date": "Unknown", 
+            "concentration": "10:percent", 
+            "event": "acquired"
+        }
+    ]
+}

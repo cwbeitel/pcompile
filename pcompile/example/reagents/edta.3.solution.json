@@ -1,0 +1,38 @@
+{
+    "volume": "375:microliter", 
+    "classification": {
+        "_type": "unclassified_solution"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "edta", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en2qzhzzf:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "edta", 
+    "components": [
+        {
+            "concentration": "0.5:M", 
+            "name": "edta", 
+            "classification": {
+                "CHEBI": "EDTA(2-)"
+            }
+        }
+    ], 
+    "concentration": "0.5:molar", 
+    "storage_temp": "any:celsius", 
+    "history": [
+        {
+            "price": "Unknown:dollars", 
+            "model_number": "Unknown", 
+            "volume": "1500:microliter", 
+            "supplier": "eisenlab", 
+            "date": "Unknown", 
+            "concentration": "0.5:molar", 
+            "event": "acquired"
+        }
+    ]
+}

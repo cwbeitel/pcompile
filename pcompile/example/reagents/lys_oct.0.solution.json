@@ -1,0 +1,81 @@
+{
+    "volume": "10:microliter", 
+    "classification": {
+        "supplier": "epicentre", 
+        "model": "?"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "lysozyme", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en2cmehje:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "lys_oct", 
+    "components": [
+        {
+            "concentration": "2000:units/microliter", 
+            "name": "lysozyme", 
+            "classification": {
+                "KEGG_ORTHOLOGY": "K01185"
+            }
+        }, 
+        {
+            "concentration": "50:mM", 
+            "name": "tris-hcl", 
+            "classification": {
+                "LOCAL": "tris_hcl"
+            }
+        }, 
+        {
+            "concentration": "0.1:M", 
+            "name": "nacl", 
+            "classification": {
+                "CHEBI": "sodium_chloride"
+            }
+        }, 
+        {
+            "concentration": "0.1:mM", 
+            "name": "edta", 
+            "classification": {
+                "CHEBI": "EDTA(2-)"
+            }
+        }, 
+        {
+            "concentration": "1:mM", 
+            "name": "dtt", 
+            "classification": {
+                "CHEBI": "L-1,4-dithiothreitol"
+            }
+        }, 
+        {
+            "concentration": "0.1:percent", 
+            "name": "triton_x100", 
+            "classification": {
+                "CHEBI": "Triton_X-100"
+            }
+        }, 
+        {
+            "concentration": "50:percent", 
+            "name": "glycerol", 
+            "classification": {
+                "CHEBI": "glycerol"
+            }
+        }
+    ], 
+    "concentration": "2000:units/microliter", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "102:dollars", 
+            "model_number": "Unknown", 
+            "volume": "10:microliter", 
+            "supplier": "epicentre", 
+            "date": "Unknown", 
+            "concentration": "2000:units/microliter", 
+            "event": "acquired"
+        }
+    ]
+}

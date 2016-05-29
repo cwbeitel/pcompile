@@ -1,0 +1,39 @@
+{
+    "volume": "50:microliter", 
+    "classification": {
+        "supplier": "fermentas", 
+        "model": "en0531"
+    }, 
+    "other": {
+        "expiration": "exp 12.2011", 
+        "full_label": "rnase a", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en79rqca8:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "rnase_a", 
+    "components": [
+        {
+            "concentration": "10:mg/ml", 
+            "name": "rnase_a", 
+            "classification": {
+                "KEGG": "RNase_A"
+            }
+        }
+    ], 
+    "concentration": "10:milligrams/milliliter", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "40:dollars", 
+            "model_number": "en0531", 
+            "volume": "200:microliter", 
+            "supplier": "fermentas", 
+            "date": "Unknown", 
+            "concentration": "10:milligrams/milliliter", 
+            "event": "acquired"
+        }
+    ]
+}

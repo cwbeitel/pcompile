@@ -1,0 +1,165 @@
+{
+  "refs": {
+    "water_54777": {
+      "id": "ct177en62fuqd7",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "test_251929": {
+      "id": "ct1789dgbdwnhe",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "unlabeled_container_866405": {
+      "new": "96-pcr",
+      "store": {
+        "where": "cold_4"
+      }
+    },
+    "rnase_a_new_846023": {
+      "id": "ct177en67n9gm2",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "water_757206": {
+      "id": "ct177en62fuqd7",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "pro_k_new_483371": {
+      "id": "ct177en4bgh9u3",
+      "store": {
+        "where": "ambient"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "5.0:microliter",
+              "to": "unlabeled_container_866405/0",
+              "from": "test_251929/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "92.5:microliter",
+              "to": "unlabeled_container_866405/1",
+              "from": "water_54777/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "2.5:microliter",
+              "to": "unlabeled_container_866405/1",
+              "from": "rnase_a_new_846023/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "5.0:microliter",
+              "to": "unlabeled_container_866405/1",
+              "from": "unlabeled_container_866405/0"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "object": "unlabeled_container_866405",
+      "op": "seal"
+    },
+    {
+      "volume": "50:microliter",
+      "dataref": null,
+      "object": "unlabeled_container_866405",
+      "groups": [
+        {
+          "cycles": 1,
+          "steps": [
+            {
+              "duration": "20:minute",
+              "temperature": "65:celsius"
+            }
+          ]
+        }
+      ],
+      "op": "thermocycle"
+    },
+    {
+      "object": "unlabeled_container_866405",
+      "op": "unseal"
+    },
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "6.25:microliter",
+              "to": "unlabeled_container_866405/2",
+              "from": "pro_k_new_483371/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "18.75:microliter",
+              "to": "unlabeled_container_866405/2",
+              "from": "water_757206/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "100.0:microliter",
+              "to": "unlabeled_container_866405/2",
+              "from": "unlabeled_container_866405/1"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "object": "unlabeled_container_866405",
+      "op": "seal"
+    },
+    {
+      "volume": "50:microliter",
+      "dataref": null,
+      "object": "unlabeled_container_866405",
+      "groups": [
+        {
+          "cycles": 1,
+          "steps": [
+            {
+              "duration": "8:hour",
+              "temperature": "65:celsius"
+            }
+          ]
+        }
+      ],
+      "op": "thermocycle"
+    },
+    {
+      "object": "unlabeled_container_866405",
+      "op": "unseal"
+    }
+  ]
+}

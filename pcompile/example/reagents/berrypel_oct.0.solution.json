@@ -1,0 +1,35 @@
+{
+    "volume": "10:microliter", 
+    "classification": {
+        "_type": "unclassified_solution"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "pink berry aggregate cell lysate; no xl", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en77nkyt2:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "berrypel_oct", 
+    "components": [
+        {
+            "concentration": "unknown", 
+            "name": "bacterial_cells"
+        }
+    ], 
+    "concentration": "Unknown:micromolar", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "Unknown:dollars", 
+            "model_number": "Unknown", 
+            "volume": "10:microliter", 
+            "supplier": "eisenlab", 
+            "date": "Unknown", 
+            "concentration": "unknown:unknown", 
+            "event": "acquired"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "volume": "1500:microliter", 
+    "classification": {
+        "_type": "unclassified_solution"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "water", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en5xdh7jh:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "water", 
+    "components": [
+        {
+            "concentration": "55.5:M", 
+            "name": "water", 
+            "classification": {
+                "CHEBI": "water"
+            }
+        }
+    ], 
+    "concentration": "100:percent", 
+    "storage_temp": "any:celsius", 
+    "history": [
+        {
+            "price": "Unknown:dollars", 
+            "model_number": "Unknown", 
+            "volume": "6000:microliter", 
+            "supplier": "eisenlab", 
+            "date": "Unknown", 
+            "concentration": "100:percent", 
+            "event": "acquired"
+        }
+    ]
+}

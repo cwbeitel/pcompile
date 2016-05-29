@@ -1,0 +1,60 @@
+{
+    "volume": "500:microliter", 
+    "classification": {
+        "supplier": "neb", 
+        "model": "p8107s"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "proteinase k", 
+        "components_string": "20 mm tris-hcl, 1 mm cacl2, 50% glycerol"
+    }, 
+    "container": {
+        "location": "ct177en4bgh9u3:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "pro_k_new", 
+    "components": [
+        {
+            "concentration": "20:mg/mL", 
+            "name": "proteinase_k", 
+            "classification": {
+                "KEGG": "proteinase_K"
+            }
+        }, 
+        {
+            "concentration": "20:mM", 
+            "name": "tris_hcl", 
+            "classification": {
+                "LOCAL": "tris_hcl"
+            }
+        }, 
+        {
+            "concentration": "1:mM", 
+            "name": "cacl2", 
+            "classification": {
+                "CHEBI": "calcium_dichloride"
+            }
+        }, 
+        {
+            "concentration": "50:percent", 
+            "name": "glycerol", 
+            "classification": {
+                "CHEBI": "glycerol"
+            }
+        }
+    ], 
+    "concentration": "20:milligrams/milliliter", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "67:dollars", 
+            "model_number": "p8107s", 
+            "volume": "2000:microliter", 
+            "supplier": "neb", 
+            "date": "Unknown", 
+            "concentration": "20:mg/ml", 
+            "event": "acquired"
+        }
+    ]
+}

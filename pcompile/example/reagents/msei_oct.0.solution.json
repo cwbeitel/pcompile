@@ -1,0 +1,78 @@
+{
+    "volume": "Unknown:microliter", 
+    "classification": {
+        "supplier": "neb", 
+        "model": "r0525s"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "msei restriction enzyme", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en2dmv37z:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "msei_oct", 
+    "components": [
+        {
+            "concentration": "10:mM", 
+            "name": "tris-hcl", 
+            "classification": {
+                "LOCAL": "tris_hcl"
+            }
+        }, 
+        {
+            "concentration": "50:mM", 
+            "name": "kcl", 
+            "classification": {
+                "CHEBI": "potassium_chloride"
+            }
+        }, 
+        {
+            "concentration": "1:mM", 
+            "name": "dtt", 
+            "classification": {
+                "CHEBI": "L-1,4-dithiothreitol"
+            }
+        }, 
+        {
+            "concentration": "0.1:mM", 
+            "name": "edta", 
+            "classification": {
+                "CHEBI": "EDTA(2-)"
+            }
+        }, 
+        {
+            "concentration": "200:microgram/ml", 
+            "name": "bsa", 
+            "classification": {
+                "UNIPROT": "ALBU_BOVIN"
+            }
+        }, 
+        {
+            "concentration": "50:percent", 
+            "name": "glycerol", 
+            "classification": {
+                "CHEBI": "glycerol"
+            }
+        }, 
+        {
+            "concentration": "10:units/microliter", 
+            "name": "msei"
+        }
+    ], 
+    "concentration": "10:units/microliter", 
+    "storage_temp": "-20:celsius", 
+    "history": [
+        {
+            "price": "63:dollars", 
+            "model_number": "r0525s", 
+            "volume": "Unknown:microliter", 
+            "supplier": "neb", 
+            "date": "Unknown", 
+            "concentration": "10:units/microliter", 
+            "event": "acquired"
+        }
+    ]
+}

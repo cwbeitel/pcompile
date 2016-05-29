@@ -1,0 +1,39 @@
+{
+    "volume": "1500:microliter", 
+    "classification": {
+        "supplier": "biospec", 
+        "model": "11079105"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "glass beads for mechanical cell lysis; 0.5mm", 
+        "components_string": "glass"
+    }, 
+    "container": {
+        "location": "ct177en7cwjy37:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "glass_beads_05mm", 
+    "components": [
+        {
+            "concentration": "100:percent", 
+            "name": "glass_beads", 
+            "classification": {
+                "LOCAL": "glassbeads_05"
+            }
+        }
+    ], 
+    "concentration": "solid:none", 
+    "storage_temp": "any:celsius", 
+    "history": [
+        {
+            "price": "Unknown:dollars", 
+            "model_number": "11079105", 
+            "volume": "3000:microliter", 
+            "supplier": "biospec", 
+            "date": "Unknown", 
+            "concentration": "solid:none", 
+            "event": "acquired"
+        }
+    ]
+}

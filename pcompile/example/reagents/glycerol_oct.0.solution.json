@@ -1,0 +1,38 @@
+{
+    "volume": "1500:microliter", 
+    "classification": {
+        "_type": "unclassified_solution"
+    }, 
+    "other": {
+        "expiration": "Unknown", 
+        "full_label": "glycerol; 80%; viscous", 
+        "components_string": "Unknown"
+    }, 
+    "container": {
+        "location": "ct177en3ahwbxf:transcriptic", 
+        "ctype": "micro-1.5"
+    }, 
+    "name": "glycerol_oct", 
+    "components": [
+        {
+            "concentration": "80:percent", 
+            "name": "glycerol", 
+            "classification": {
+                "CHEBI": "glycerol"
+            }
+        }
+    ], 
+    "concentration": "80:percent", 
+    "storage_temp": "any:celsius", 
+    "history": [
+        {
+            "price": "Unknown:dollars", 
+            "model_number": "Unknown", 
+            "volume": "1500:microliter", 
+            "supplier": "eisenlab", 
+            "date": "Unknown", 
+            "concentration": "80:percent", 
+            "event": "acquired"
+        }
+    ]
+}

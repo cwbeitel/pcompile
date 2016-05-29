@@ -1,0 +1,165 @@
+{
+  "refs": {
+    "beads_oct_803028": {
+      "id": "ct177en4w52gfx",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "unlabeled_container_151935": {
+      "new": "96-pcr",
+      "store": {
+        "where": "cold_4"
+      }
+    },
+    "water_244674": {
+      "id": "ct177en62fuqd7",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "ethanol_196058": {
+      "id": "ct177emzy7udbs",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "input_894968": {
+      "id": "ct17hvtkyd59uz",
+      "store": {
+        "where": "ambient"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "5.0:microliter",
+              "to": "unlabeled_container_151935/0",
+              "from": "input_894968/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "9.0:microliter",
+              "to": "unlabeled_container_151935/0",
+              "from": "beads_oct_803028/0"
+            }
+          ]
+        },
+        {
+          "mix": [
+            {
+              "volume": "14.0:microliter",
+              "well": "unlabeled_container_151935/0",
+              "repetitions": 10,
+              "speed": "100:microliter/second"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "duration": "20:minute",
+      "where": "ambient",
+      "object": "unlabeled_container_151935",
+      "shaking": false,
+      "op": "incubate"
+    },
+    {
+      "x-magnetic_separate": {
+        "duration": "2:minute",
+        "object": "unlabeled_container_151935"
+      },
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "9.0:microliter",
+              "to": "unlabeled_container_151935/1",
+              "from": "unlabeled_container_151935/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "150.0:microliter",
+              "to": "unlabeled_container_151935/0",
+              "from": "ethanol_196058/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "150.0:microliter",
+              "to": "unlabeled_container_151935/2",
+              "from": "unlabeled_container_151935/0"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "x-magnetic_separate": {
+        "duration": "20:minute",
+        "object": "unlabeled_container_151935"
+      },
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "60.0:microliter",
+              "to": "unlabeled_container_151935/0",
+              "from": "water_244674/0"
+            }
+          ]
+        },
+        {
+          "mix": [
+            {
+              "volume": "65.0:microliter",
+              "well": "unlabeled_container_151935/0",
+              "repetitions": 20,
+              "speed": "100:microliter/second"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "duration": "5:minute",
+      "where": "ambient",
+      "object": "unlabeled_container_151935",
+      "shaking": false,
+      "op": "incubate"
+    },
+    {
+      "x-magnetic_separate": {
+        "duration": "5:minute",
+        "object": "unlabeled_container_151935"
+      },
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "61.75:microliter",
+              "to": "unlabeled_container_151935/3",
+              "from": "unlabeled_container_151935/0"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    }
+  ]
+}

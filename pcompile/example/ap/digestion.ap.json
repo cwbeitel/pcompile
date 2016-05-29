@@ -1,0 +1,171 @@
+{
+  "refs": {
+    "lysozyme_stock_dilute_805803": {
+      "id": "ct177en7pcx6sw",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "lysozyme_100x_891092": {
+      "id": "ct177en3bjpvkc",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "water_67155": {
+      "id": "ct177en62fuqd7",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "unlabeled_container_892483": {
+      "new": "96-pcr",
+      "store": {
+        "where": "cold_4"
+      }
+    },
+    "hindiii_867703": {
+      "id": "ct177en7yq8zcx",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "triton_x100_445075": {
+      "id": "ct177en6du6zph",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "lys_oct_879580": {
+      "id": "ct177en2cmehje",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "neb21_oct_333260": {
+      "id": "ct177en5hsgyn2",
+      "store": {
+        "where": "ambient"
+      }
+    },
+    "seadna_oct_384786": {
+      "id": "ct177en2w6ggxv",
+      "store": {
+        "where": "ambient"
+      }
+    }
+  },
+  "instructions": [
+    {
+      "groups": [
+        {
+          "transfer": [
+            {
+              "volume": "3.99360074967:microliter",
+              "to": "unlabeled_container_892483/0",
+              "from": "triton_x100_445075/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "34.8026864011:microliter",
+              "to": "unlabeled_container_892483/0",
+              "from": "water_67155/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "0.499999990142:microliter",
+              "to": "unlabeled_container_892483/0",
+              "from": "hindiii_867703/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "0.157882983322:microliter",
+              "to": "unlabeled_container_892483/0",
+              "from": "lys_oct_879580/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "0.411353326909:microliter",
+              "to": "unlabeled_container_892483/0",
+              "from": "lysozyme_100x_891092/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "0.0706728004708:microliter",
+              "to": "unlabeled_container_892483/0",
+              "from": "lysozyme_stock_dilute_805803/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "0.0015618074514:microliter",
+              "to": "unlabeled_container_892483/0",
+              "from": "neb21_oct_333260/0"
+            }
+          ]
+        },
+        {
+          "transfer": [
+            {
+              "volume": "0.0622419343776:microliter",
+              "to": "unlabeled_container_892483/0",
+              "from": "seadna_oct_384786/0"
+            }
+          ]
+        }
+      ],
+      "op": "pipette"
+    },
+    {
+      "volume": "200:microliter",
+      "dataref": null,
+      "object": "unlabeled_container_892483",
+      "groups": [
+        {
+          "cycles": 1,
+          "steps": [
+            {
+              "duration": "8:hour",
+              "temperature": "37:celsius"
+            }
+          ]
+        }
+      ],
+      "op": "thermocycle"
+    },
+    {
+      "volume": "200:microliter",
+      "dataref": null,
+      "object": "unlabeled_container_892483",
+      "groups": [
+        {
+          "cycles": 1,
+          "steps": [
+            {
+              "duration": "20:minute",
+              "temperature": "65:celsius"
+            }
+          ]
+        }
+      ],
+      "op": "thermocycle"
+    }
+  ]
+}

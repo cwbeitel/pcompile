@@ -1,0 +1,36 @@
+{
+    "volume": "180:microliter",
+    "classification": {
+        "_type": "unclassified_solution"
+    },
+    "other": {
+        "expiration": "Unknown",
+        "full_label": "unknown aquarium sample",
+        "components_string": "Unknown"
+    },
+    "container": {
+        "location": "ct17kghgvp83mx/28:transcriptic",
+        "ctype": "96-pcr"
+    },
+    "name": "aquarium",
+    "components": [
+        {
+            "concentration": "10.1234:nanograms/microliter",
+            "name": "dna"
+        }
+    ],
+    "concentration": "20.1234:nanograms/microliter",
+    "storage_temp": "-20:celsius",
+    "history": [
+        {
+            "price": "Unknown:dollars",
+            "model_number": "Unknown",
+            "volume": "180:microliter",
+            "supplier": "eisenlab",
+            "date": "Unknown",
+            "concentration": "-1:nanograms/microliter",
+            "event": "acquired"
+        }
+    ]
+
+}
